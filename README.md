@@ -17,6 +17,8 @@ Create a Virtual machine [Windows 10 VM or a Linux VM (Ubuntu 16.04-LTS)] in Azu
 
 ## Authenticate Terraform to your azure account
 
+Terraform documentation on Authenticating to Azure - https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+
 Run `az login` to authenticate to your azure account. Terraform will use this information to connect to your account. If you wish to use a service principal, uncomment the `Provider` block with service principal variables and provide the value at run time or store them as Environment variables.
 
 ## Resource List
