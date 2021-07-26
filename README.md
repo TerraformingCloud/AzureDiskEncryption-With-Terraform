@@ -4,7 +4,7 @@ Create a Virtual machine [Windows 10 VM or a Linux VM (Ubuntu 16.04-LTS)] in Azu
 
 ## MS Docs Links
 
-- [The official documentation of Azure Disk Encryption on VMs and VMSS](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
+- [The official documentation on Azure Disk Encryption on VMs and VMSS](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
 
 - [Azure Disk Encryption for Windows VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview)
 
@@ -17,7 +17,7 @@ Create a Virtual machine [Windows 10 VM or a Linux VM (Ubuntu 16.04-LTS)] in Azu
 
 ## Authenticate Terraform to your azure account
 
-In this example, I have used `az login` from the VS Code terminal to authenticate to my azure account. Terraform will use this information to connect to your account. If you wish to use a service principal, uncomment the `Provider` block with service principal variables and provide the value at run time or store them as Environment variables.
+Run `az login` to authenticate to your azure account. Terraform will use this information to connect to your account. If you wish to use a service principal, uncomment the `Provider` block with service principal variables and provide the value at run time or store them as Environment variables.
 
 ## Resource List
 
